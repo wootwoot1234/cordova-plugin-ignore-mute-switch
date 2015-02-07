@@ -1,12 +1,14 @@
-# BackgroundAudio - a Cordova plugin
-by [Eddy Verbruggen](http://twitter.com/eddyverbruggen)
+
+# Ignore Mute Switch - a Cordova Plugin
+modified by [Tom Krones]
+originally by [Eddy Verbruggen](http://twitter.com/eddyverbruggen)
 
 ## 0. Index
 
 1. [Description](#1-description)
 2. [Installation](#2-installation)
-	2. [Automatically (CLI / Plugman)](#automatically-cli--plugman)
-	2. [Manually](#manually)
+    2. [Automatically (CLI / Plugman)](#automatically-cli--plugman)
+    2. [Manually](#manually)
 3. [Usage](#3-usage)
 4. [License](#4-license)
 
@@ -23,11 +25,11 @@ Allows your app to keep on playing audio when it's in the background.
 Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman), compatible with [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI (backup your project first!):
 
 ```
-$ phonegap local plugin add https://github.com/EddyVerbruggen/cordova-plugin-backgroundaudio.git
+$ phonegap local plugin add https://github.com/wootwoot1234/cordova-plugin-ignore-mute-switch.git
 ```
 or
 ```
-$ cordova plugin add https://github.com/EddyVerbruggen/cordova-plugin-backgroundaudio
+$ cordova plugin add https://github.com/wootwoot1234/cordova-plugin-ignore-mute-switch
 $ cordova prepare
 ```
 
@@ -44,8 +46,6 @@ $ cordova prepare
 2\. Download the source files and copy them to your project.
 
 iOS: Copy the `.h` and `.m` files to `platforms/ios/<ProjectName>/Plugins`
-
-3\. Open your `<ProjectName>-Info.plist` and add a key `UIBackgroundModes` with an array value `audio`.
 
 ## 3. Usage
 Nothing to do here as the plugin will call the required native code on load automatically :)
