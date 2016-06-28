@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ignoremuteswitch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows your app to play audio ignoring the mute switch.",
   "cordova": {
     "id": "cordova-plugin-ignoremuteswitch",
