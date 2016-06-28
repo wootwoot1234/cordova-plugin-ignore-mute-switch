@@ -1,16 +1,16 @@
 {
-  "name": "cordova-plugin-ignore-mute-switch",
+  "name": "cordova-plugin-ignoremuteswitch",
   "version": "1.0.0",
   "description": "Allows your app to play audio ignoring the mute switch.",
   "cordova": {
-    "id": "cordova-plugin-ignore-mute-switch",
+    "id": "cordova-plugin-ignoremuteswitch",
     "platforms": [
       "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/salbahra/cordova-plugin-ignore-mute-switch.git"
+    "url": "git+https://github.com/salbahra/cordova-plugin-ignoremuteswitch.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -25,7 +25,7 @@
   "author": "Samer Albahra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/salbahra/cordova-plugin-ignore-mute-switch/issues"
+    "url": "https://github.com/salbahra/cordova-plugin-ignoremuteswitch/issues"
   },
-  "homepage": "https://github.com/salbahra/cordova-plugin-ignore-mute-switch#readme"
+  "homepage": "https://github.com/salbahra/cordova-plugin-ignoremuteswitch#readme"
 }

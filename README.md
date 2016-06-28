@@ -17,7 +17,7 @@ Allows your app to keep on playing audio when it's in the background.
 
 ## 2. Installation
 
-`cordova plugin add cordova-plugin-ignore-mute-switch`
+`cordova plugin add cordova-plugin-ignoremuteswitch`
 
 ## 3. Usage
 Nothing to do here as the plugin will call the required native code on load automatically :)
