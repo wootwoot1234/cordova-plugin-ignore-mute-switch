@@ -1,14 +1,11 @@
 
 # Ignore Mute Switch - a Cordova Plugin
-modified by [Tom Krones]
-originally by [Eddy Verbruggen](http://twitter.com/eddyverbruggen)
+Modified by [Samer Albahra](https://twitter.com/salbahra) and Tom Krones. Originally by [Eddy Verbruggen](http://twitter.com/eddyverbruggen)
 
-## 0. Index
+## Index
 
 1. [Description](#1-description)
 2. [Installation](#2-installation)
-    2. [Automatically (CLI / Plugman)](#automatically-cli--plugman)
-    2. [Manually](#manually)
 3. [Usage](#3-usage)
 4. [License](#4-license)
 
@@ -16,36 +13,11 @@ originally by [Eddy Verbruggen](http://twitter.com/eddyverbruggen)
 
 Allows your app to keep on playing audio when it's in the background.
 
-* Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman).
 * For iOS only.
 
 ## 2. Installation
 
-### Automatically (CLI / Plugman)
-Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman), compatible with [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI (backup your project first!):
-
-```
-$ phonegap local plugin add https://github.com/wootwoot1234/cordova-plugin-ignore-mute-switch.git
-```
-or
-```
-$ cordova plugin add https://github.com/wootwoot1234/cordova-plugin-ignore-mute-switch
-$ cordova prepare
-```
-
-### Manually
-
-1\. Add the following xml to your `config.xml` in the root directory of your `www` folder:
-```xml
-<feature name="BackgroundAudio">
-  <param name="ios-package" value="BackgroundAudio" />
-  <param name="onload" value="true" />
-</feature>
-```
-
-2\. Download the source files and copy them to your project.
-
-iOS: Copy the `.h` and `.m` files to `platforms/ios/<ProjectName>/Plugins`
+`cordova plugin add cordova-plugin-ignoremuteswitch`
 
 ## 3. Usage
 Nothing to do here as the plugin will call the required native code on load automatically :)
