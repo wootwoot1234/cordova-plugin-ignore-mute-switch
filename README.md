@@ -21,7 +21,7 @@ Allows your app to keep on playing audio when it's in the background.
 ## 2. Installation
 
 ### Automatically (CLI / Plugman)
--Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman), compatible with [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI (backup your project first!):
+Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman), compatible with [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI (backup your project first!):
 
 ```
 $ cordova plugin add cordova-plugin-ignore-mute-switch
