@@ -7,7 +7,8 @@ Modified by [Samer Albahra](https://twitter.com/salbahra) and Tom Krones. Origin
 1. [Description](#1-description)
 2. [Installation](#2-installation)
     2. [Automatically (CLI / Plugman)](#automatically-cli--plugman)
-    2. [Manually](#manually)3. [Usage](#3-usage)
+    2. [Manually](#manually)
+3. [Usage](#3-usage)
 4. [License](#4-license)
 
 ## 1. Description
