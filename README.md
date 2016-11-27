@@ -1,9 +1,8 @@
 
 # Ignore Mute Switch - a Cordova Plugin
-modified by [Tom Krones]
-originally by [Eddy Verbruggen](http://twitter.com/eddyverbruggen)
+Modified by [Samer Albahra](https://twitter.com/salbahra) and Tom Krones. Originally by [Eddy Verbruggen](http://twitter.com/eddyverbruggen)
 
-## 0. Index
+## Index
 
 1. [Description](#1-description)
 2. [Installation](#2-installation)
@@ -25,12 +24,11 @@ Allows your app to keep on playing audio when it's in the background.
 Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman), compatible with [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI (backup your project first!):
 
 ```
-$ phonegap local plugin add https://github.com/wootwoot1234/cordova-plugin-ignore-mute-switch.git
+$ cordova plugin add cordova-plugin-ignore-mute-switch
 ```
 or
 ```
-$ cordova plugin add https://github.com/wootwoot1234/cordova-plugin-ignore-mute-switch
-$ cordova prepare
+$ phonegap local plugin add https://github.com/wootwoot1234/cordova-plugin-ignore-mute-switch
 ```
 
 ### Manually
